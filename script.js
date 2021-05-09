@@ -10,10 +10,10 @@
 const puppy=require("puppeteer");
 const fs = require("fs");
 
-const choice=4; //Select the Choice
-const trip="ROUND"; //Select "ONEWAY" or "ROUND"
+const choice=1; //Select the Choice 1 or 2 or 3 or 4 or 5 or 6
+const trip="ONEWAY"; //Select "ONEWAY" or "ROUND"
 const sourceCity="New Delhi"; //Select the Source City(from)
-const destinationCity="Goa"; //Select the Destination City(to)
+const destinationCity="Imphal"; //Select the Destination City(to)
 const departureDate='div[aria-label="Sat May 15 2021"]'; //Write Day, Month, Date, Year at the particular locations keeping other syntax as it is.
 const returnDate='div[aria-label="Thu May 20 2021"]'; //Write Day, Month, Date, Year at the particular locations keeping other syntax as it is.
 const Number_of_Adults='li[data-cy="adults-2"]'; //Select 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10(for >9) 
