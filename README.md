@@ -1,4 +1,4 @@
-# hackathonProject
+# TRIP GENIE
 The name of this project is TRIP GENIE. This project is made using nodejs and Puppeteer(WebScrapping and Automation).
 I have given it name TRIP GENIE because the user just need to provide Choice, Basic Details and after running the Script, the user will get the desired Information in well maintained .json files along with the Screenshots of the Webpages.
 
